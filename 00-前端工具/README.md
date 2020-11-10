@@ -1,8 +1,6 @@
 
 ## 前言
 
-> 本文最新内容将在[GitHub](https://github.com/qianguyihao/Web/blob/master/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.md)上实时更新。
-
 VS Code  本来是前端人员专用，但由于它实在是太好用了，于是，各种开发方向的码农也正在用 VS Code 作为他们的主力编程工具。甚至是一些写作的同学，也把 VS Code 作为 markdown 写作工具。
 
 写下这篇文章，是顺势而为。
@@ -575,5 +573,4 @@ css颜色高亮显示。
 
 如果你有什么推荐的 VS Code 插件，欢迎留言。
 
-同时，你也可以关注我在 GitHub 上的 [前端入门项目](https://github.com/qianguyihao/Web)，超级详细和真诚。
 
