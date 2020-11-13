@@ -6,7 +6,7 @@
 
 ### 全局配置用户信息
 
-```
+```git 
 git config --global user.name "smyhvae"
 
 git config --global user.email "smyhvae@163.com"
