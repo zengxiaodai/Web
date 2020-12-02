@@ -16,6 +16,10 @@
 
 ### 01-HTML
 
+> 什么是web，标准是什么，HTML是什么包含什么？   
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/01-HTML  
+
+
 ### 02-CSS
 
 ### 03-JavaScript基础
