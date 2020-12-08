@@ -22,6 +22,9 @@
 
 ### 02-CSS
 
+> 这是一篇关于CSS文档，能够你从0入门掌握CSS  
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/02-CSS
+
 ### 03-JavaScript基础
 
 ### 04-JavaScript进阶
