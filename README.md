@@ -26,8 +26,8 @@
 
 ### 03-JavaScript基础
 
-> JavaScript诞生于1995年。布兰登 • 艾奇（Brendan Eich，1961年～），1995年在网景公司，发明的JavaScript。
-> JavaScript是由网景公司发明，起初命名为LiveScript，后来由于SUN公司的介入更名为了JavaScript。
+> JavaScript诞生于1995年。布兰登 • 艾奇（Brendan Eich，1961年～），1995年在网景公司，发明的JavaScript。  
+> JavaScript是由网景公司发明，起初命名为LiveScript，后来由于SUN公司的介入更名为了JavaScript。  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/03-JavaScript%E5%9F%BA%E7%A1%80
 
 ### 04-JavaScript进阶
