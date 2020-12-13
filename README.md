@@ -32,6 +32,10 @@
 
 ### 04-JavaScript进阶
 
+> 一些高级JS操作  
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/04-JavaScript%E8%BF%9B%E9%98%B6
+
+
 ### 05-前端基本功：CSS和DOM练习
 
 ### 05-前端基本功：JavaScript特效
