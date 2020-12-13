@@ -10,7 +10,7 @@
 
 ## 作用域和闭包  
 
-点击阅读：https://gitee.com/mody2020/Web/blob/master/04-JavaScript%E8%BF%9B%E9%98%B6/call%E3%80%81apply%E3%80%81bind%E7%9A%84%E5%8C%BA%E5%88%AB.md  
+点击阅读：https://gitee.com/mody2020/Web/blob/master/04-JavaScript%E8%BF%9B%E9%98%B6/%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E5%92%8C%E7%BB%A7%E6%89%BF.md  
 
 
 ## 创建对象和继承
