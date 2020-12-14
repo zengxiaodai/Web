@@ -38,7 +38,7 @@
 
 ### 05-前端基本功：CSS和DOM练习
 
-> 仿照JD首页进行切图 
+> 仿照JD首页进行切图   
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9ACSS%E5%92%8CDOM%E7%BB%83%E4%B9%A0
 
 ### 05-前端基本功：JavaScript特效
