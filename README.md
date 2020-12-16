@@ -45,6 +45,9 @@
 
 ### 05-前端基本功：JavaScript特效
 
+> 一些JavaScript特效
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9AJavaScript%E7%89%B9%E6%95%88
+
 ### 06-jQuery
 
 ### 07-HTML5和CSS3
