@@ -53,7 +53,10 @@
 > jQuery 是 js 的一个库，封装了我们开发过程中常用的一些功能，方便我们调用，提高开发效率。  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/06-jQuery
 
-### 07-HTML5和CSS3
+### 07-HTML5和CSS3 
+
+> HTML5并不仅仅只是做为HTML标记语言的一个最新版本，更重要的是它**制定了Web应用开发的一系列标准**，成为第一个将Web做为应用开发平台的HTML语言。
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/07-HTML5%E5%92%8CCSS3
 
 ### 08-移动web开发
 
