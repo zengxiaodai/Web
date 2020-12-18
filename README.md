@@ -60,7 +60,7 @@
 
 ### 08-移动web开发
 
-> Bootstrap 是非常流行的前端框架。特点是：灵活简洁、代码优雅、美观大方。它是由Twitter的两名工程师 Mark Otto 和 Jacob Thornton 在2011年开发的。
+> Bootstrap 是非常流行的前端框架。特点是：灵活简洁、代码优雅、美观大方。它是由Twitter的两名工程师 Mark Otto 和 Jacob Thornton 在2011年开发的。  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/08-%E7%A7%BB%E5%8A%A8web%E5%BC%80%E5%8F%91
 
 ### 09-Ajax
