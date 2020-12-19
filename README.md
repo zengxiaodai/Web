@@ -65,6 +65,9 @@
 
 ### 09-Ajax
 
+> 在浏览器中，我们可以在不刷新页面的情况下，通过ajax的方式去获取一些新的内容。  
+> 点击阅读：https://gitee.com/xv700/Web/blob/master/09-Ajax/02-Ajax%E5%85%A5%E9%97%A8%E5%92%8C%E5%8F%91%E9%80%81http%E8%AF%B7%E6%B1%82.md
+
 ### 10-Node.js和模块化
 
 ### 11-ES6
