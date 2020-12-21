@@ -75,6 +75,10 @@
 
 ### 11-ES6
 
+> ECMAScript 是 JS 的语言标准。而 ES6 是新的 JS 语法标准。  
+PS：严格来说，ECMAScript 还包括其他很多语言的语言标准。  
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/11-ES6 
+
 ### 12-Vue基础
 
 ### 13-React基础
