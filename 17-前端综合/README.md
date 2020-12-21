@@ -1,118 +1,93 @@
->推荐一些canvas制作的小游戏，提高你的学习兴趣——https://gitee.com/xv700/canvas
-
-## 项目介绍
-
-前端入门到进阶图文教程。从零开始学前端，做一名精致的前端工程师。持续更新中。本项目的主要作用有：  
-
-- 1、网上的大部分入门教程，都不太适合初学者，本项目争取照顾到每一位前端入门者的同理心。即使你完全不懂前端，甚至不懂编程，通过这个教程，也能让小白入门。  
-
-- 2、帮助前端同学提供一个精品学习资源和路线，提高学习效率，少走很多弯路。  
- 
-- 3、可以当做前端字典，随时翻阅，查漏补缺。  
-
-### 00-前端工具
-
-> 本文更新于 2020-06-19，大家完全不用担心这篇文章会过时，因为随着 VS Code 的版本更新和插件更新，本文也会随之更新。  
-> VS Code 软件实在是太酷、太好用了，越来越多的新生代互联网青年正在使用它。   
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7
-
-### 01-HTML
-
-> 什么是web，标准是什么，HTML是什么包含什么？   
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/01-HTML  
-
-### 02-CSS
-
-> 这是一篇关于CSS文档，能够你从0入门掌握CSS  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/02-CSS
-
-### 03-JavaScript基础
-
-> JavaScript诞生于1995年。布兰登 • 艾奇（Brendan Eich，1961年～），1995年在网景公司，发明的JavaScript。  
-> JavaScript是由网景公司发明，起初命名为LiveScript，后来由于SUN公司的介入更名为了JavaScript。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/03-JavaScript%E5%9F%BA%E7%A1%80
-
-### 04-JavaScript进阶
-
-> 一些高级JavaScript操作  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/04-JavaScript%E8%BF%9B%E9%98%B6
+﻿
+我之前写过一篇文章：[《裸辞两个月，海投一个月，从Android转战Web前端的求职之路》](http://www.cnblogs.com/smyhvae/p/8732781.html)。这篇文章讲述了我在转型过程中的亲身经历和感受，不少童鞋私信问我怎么入门前端，于是有了这篇文章。
 
 
-### 05-前端基本功：CSS和DOM练习
+## Web前端入门的自学路线
 
-> 仿照JD首页进行切图   
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9ACSS%E5%92%8CDOM%E7%BB%83%E4%B9%A0
+> 新手入门前端，需要学习的**基础内容**有很多，如下。
 
-### 05-前端基本功：JavaScript特效
+一、HTML、CSS基础、JavaScript语法基础。学完基础后，可以仿照电商网站（例如京东、小米）做首页的布局。
 
-> 一些JavaScript特效   
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9AJavaScript%E7%89%B9%E6%95%88
+二、JavaScript语法进阶。包括：作用域和闭包、this和对象原型等。相信我，JS语法，永远是面试中最重要的部分。
 
-### 06-jQuery
+三、jQuery、Ajax等。jQuery没有过时，它仍然是前端基础的一部分。
 
-> jQuery 是 js 的一个库，封装了我们开发过程中常用的一些功能，方便我们调用，提高开发效率。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/06-jQuery
+四、ES6语法。这部分属于JS新增的语法，面试必问。其中，关于promise、async等内容要尤其关注。
 
-### 07-HTML5和CSS3 
+五、HTML5和CSS3。要熟悉其中的新特性。
 
-> HTML5并不仅仅只是做为HTML标记语言的一个最新版本，更重要的是它**制定了Web应用开发的一系列标准**，成为第一个将Web做为应用开发平台的HTML语言。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/07-HTML5%E5%92%8CCSS3
+六、canvas。面试时，有的公司不一定会问canvas，靠运气。如果时间不够，这部分的内容可以先不学。但如果你会，绝对属于加分项。
 
-### 08-移动web开发
+七、移动Web开发、Bootstrap等。要注意移动开发中的适配和兼容性问题。
 
-> Bootstrap 是非常流行的前端框架。特点是：灵活简洁、代码优雅、美观大方。它是由Twitter的两名工程师 Mark Otto 和 Jacob Thornton 在2011年开发的。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/08-%E7%A7%BB%E5%8A%A8web%E5%BC%80%E5%8F%91
+八、前端框架：Vue.js和React。这两个框架至少要会一个。入门时，建议先学Vue.js，上手相对容易。但无论如何，同时掌握 Vue 和 React 才是合格的前端同学。
 
-### 09-Ajax
+九、Node.js。属于加分项，如果时间不够，可以先不学，但至少要知道 node 环境的配置。
 
-> 在浏览器中，我们可以在不刷新页面的情况下，通过ajax的方式去获取一些新的内容。  
-> 点击阅读：https://gitee.com/xv700/Web/blob/master/09-Ajax/02-Ajax%E5%85%A5%E9%97%A8%E5%92%8C%E5%8F%91%E9%80%81http%E8%AF%B7%E6%B1%82.md
+十、自动化工具：构建工具 Webpack、构建工具 gulp、CSS 预处理器 Sass 等。注意，Sass 比 Less 用得多，gulp 比 grunt 用得多。
 
-### 10-Node.js和模块化
+十一、前端综合：HTTP协议、跨域通信、安全问题（CSRF、XSS）、浏览器渲染机制、异步和单线程、页面性能优化、防抖动（Debouncing）和节流阀（Throtting）、lazyload、前端错误监控、虚拟DOM等。
 
-> Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 Node.js使用了一个事件驱动、非阻塞式I/O的模型（ Node.js的特性），使其轻量级又高效。      
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/10-Node.js%E5%92%8C%E6%A8%A1%E5%9D%97%E5%8C%96  
+十二、编辑器相关。Sublime Text 是每个学前端的人都要用到的编辑器。另外，前端常见的IDE有两个：WebStorm 和 Visual Studio Code。WebStorm什么都好，可就是太卡顿；VS Code就相对轻量很多。个人总结一下：新手一般用 WebStorm，入门之后，用 VS Code 的人更多。
 
-### 11-ES6
+十三、TypeScript（简称TS）。ES 是 JS 的标准，TS 是 JS 的超集。TS属于进阶内容，建议把上面的基础掌握之后，再学TS。
 
-> ECMAScript 是 JS 的语言标准。而 ES6 是新的 JS 语法标准。  
-PS：严格来说，ECMAScript 还包括其他很多语言的语言标准。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/11-ES6 
+## 推荐的图文教程
 
-### 12-Vue基础
+我在GitHub上有一个Web前端入门的学习教程，非常详细，地址是：
 
-> Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。    
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/12-Vue%E5%9F%BA%E7%A1%80  
+> <https://github.com/qianguyihao/Web>
 
-### 13-React基础
+非常详细和贴心，你值得star。
 
-> React 是一个用于构建用户界面的 JAVASCRIPT 库。  
-React 主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。   
-React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。  
-React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。      
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/13-React%E5%9F%BA%E7%A1%80  
+## 学习交流
 
-### 14-前端面试
+我建了一个“前端学习”的微信交流群，目前来看，学习氛围很不错。加我微信（bootmei），拉你进群：
 
-> 有备无患,未雨绸缪 
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/14-%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95  
+- 进群暗号：前端学习。
 
-### 15-面试题积累
+- 进群要求：少提问、少闲聊、多分享（长期潜水的，就不必了）。
 
-> 九层之台，起于垒土  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/15-%E9%9D%A2%E8%AF%95%E9%A2%98%E7%A7%AF%E7%B4%AF
+## 推荐的技术博客
 
-### 16-前端进阶
+- [阮一峰](http://www.ruanyifeng.com/blog/)
 
-> 前端的几道题目
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/16-%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6
+- [张鑫旭](http://www.zhangxinxu.com/wordpress/)
 
-### 17-前端综合  
+## 推荐的书籍
 
-> 前端的几道题目
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/16-%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6
+- 《[你不知道的JavaScript](https://book.douban.com/subject/26351021/)》
 
-### 18-推荐链接  
+上面这套书有上、中、下三本，你都可以读一读。如果时间不够，那就先读第一本。
 
-> 前端的几道题目
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/16-%E5%89%8D%E7%AB%AF%E8%BF%9B%E9%98%B6
+- 《[网络是怎样连接的](https://book.douban.com/subject/26941639/)》
+
+程序员面试的时候，经常会被问的一个问题是：“在浏览器的地址栏输入url，按下回车后，发生了什么？”
+
+为了清楚这个问题，看上面这本书，足够了。如果你想入门计算机网络，这本书也是必读的。评价非常高。
+
+关于这个问题，也可以看下面这篇文章：[浏览器输入 URL 后发生了什么？](https://zhuanlan.zhihu.com/p/43369093)
+
+
+- 《[CSS世界](https://book.douban.com/subject/27615777/)》
+
+关于 CSS 的书籍，首先推荐这本书，我身边的大佬们都说这本书好。虽然我不是大牛，但我也觉得这本书很好。
+
+如果 js 熟练，说明你是有技术深度的前端；如果 css 熟练，说明你是有经验的前端。
+
+
+## 推荐的链接
+
+- 前端导航：<https://www.cnblogs.com/qianguyihao/p/10701923.html>
+
+这个导航里列出了很多常见网站、博客、工具等，整体来看比较权威。
+
+学是一方面，也是最主要的方面；但还有一个作用，比如，“这个前端框架你都不知道啊”、“这个前端大牛你都没听说过啊” 。此时，这份清单就能起到作用了。如果能把清单里列出的内容都了解下，逼格也会高很多。
+
+
+- MDN 官方文档：<https://developer.mozilla.org/zh-CN/docs/Web>
+
+如果你想查看前端的 api 文档，请首先去 MDN上看。很官方，很正规。
+
+不要去什么 w3school 上看，可能有很多错误。
+
