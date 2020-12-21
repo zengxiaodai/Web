@@ -70,6 +70,9 @@
 
 ### 10-Node.js和模块化
 
+> Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 Node.js使用了一个事件驱动、非阻塞式I/O的模型（ Node.js的特性），使其轻量级又高效。      
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/10-Node.js%E5%92%8C%E6%A8%A1%E5%9D%97%E5%8C%96  
+
 ### 11-ES6
 
 ### 12-Vue基础
