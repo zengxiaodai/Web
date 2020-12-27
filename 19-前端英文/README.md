@@ -22,3 +22,6 @@ Npm is the world's largest software registry. Open source developers from every 
 - Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。  
 译：Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. 
 
+### Webpack  
+At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.  
+译：本质上，webpack 是一个现代 JavaScript 应用程序的静态模块打包器(module bundler)。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图(dependency graph)，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。
