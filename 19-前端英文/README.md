@@ -25,3 +25,8 @@
 ### Webpack  
 - At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.  
 译：本质上，webpack 是一个现代 JavaScript 应用程序的静态模块打包器。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个包。
+
+### Visual Studio Code（vscode） 
+
+- Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
+译：Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，运行在桌面上，适用于Windows、macOS和Linux。它内置了对JavaScript、TypeScript和node.js并有丰富的扩展语言的其他语言（如C++，C，java，python，php，go）和运行时（如.NET和Unity）。
