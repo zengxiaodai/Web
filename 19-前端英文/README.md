@@ -7,7 +7,7 @@
 译：Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时。  
 
 ### Npm
-Npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.  
+- Npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.  
 译：npm是世界上最大的软件注册中心。来自各大洲的开源开发人员使用npm来共享和借用包，许多组织也使用npm来管理私有开发。  
 
 ### React
@@ -23,5 +23,5 @@ Npm is the world's largest software registry. Open source developers from every 
 译：Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. 
 
 ### Webpack  
-At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.  
-译：本质上，webpack 是一个现代 JavaScript 应用程序的静态模块打包器(module bundler)。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图(dependency graph)，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。
+- At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.  
+译：本质上，webpack 是一个现代 JavaScript 应用程序的静态模块打包器。当 webpack 处理应用程序时，它会递归地构建一个依赖关系图，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个包。
