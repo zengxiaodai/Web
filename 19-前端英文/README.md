@@ -28,4 +28,5 @@
 
 ### Visual Studio Code（vscode） 
 - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).   
-译：Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，运行在桌面上，适用于Windows、macOS和Linux。它内置了对JavaScript、TypeScript和node.js并有丰富的扩展语言的其他语言（如C++，C，java，python，php，go）和运行时（如.NET和Unity）。
+译：Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，运行在桌面上，适用于Windows、macOS和Linux。它内置了对JavaScript、TypeScript和node.js并有丰富的扩展语言的其他语言（如C++，C，java，python，php，go）和运行时（如.NET和Unity）。  
+
