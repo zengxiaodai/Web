@@ -37,5 +37,4 @@ Each individual piece markup code (which would fall between "<" and ">" characte
 
 
 
-
 每个单独的片段标记代码（介于“<”和“>”字符之间）都被称为元素，尽管许多人也将其称为标记。有些元素成对出现，表示某种显示效果何时开始，何时结束。
