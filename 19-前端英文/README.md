@@ -15,7 +15,7 @@
 译：React 是一个用于构建用户界面的 JavaScript 库   
 
 ### Angular
-- Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.
+- Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.  
 译：Angular 是一个应用设计框架与开发平台，用于创建高效、复杂、精致的单页面应用。  
 
 ### Vue
@@ -30,3 +30,12 @@
 - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).   
 译：Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，运行在桌面上，适用于Windows、macOS和Linux。它内置了对JavaScript、TypeScript和node.js并有丰富的扩展语言的其他语言（如C++，C，java，python，php，go）和运行时（如.NET和Unity）。  
 
+### What Is HyperText Markup Language (HTML)?  
+- HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.    
+Each individual piece markup code (which would fall between "<" and ">" characters) is referred to as an element, though many people also refer to it as a tag. Some elements come in pairs that indicate when some display effect is to begin and when it is to end.  
+译：超文本标记语言（HTML）是一组插入到文件中以在Internet上显示的标记符号或代码。标记告诉web浏览器如何显示网页的文字和图像。  
+
+
+
+
+每个单独的片段标记代码（介于“<”和“>”字符之间）都被称为元素，尽管许多人也将其称为标记。有些元素成对出现，表示某种显示效果何时开始，何时结束。
