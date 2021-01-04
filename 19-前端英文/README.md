@@ -35,4 +35,11 @@
 Each individual piece markup code (which would fall between "<" and ">" characters) is referred to as an element, though many people also refer to it as a tag. Some elements come in pairs that indicate when some display effect is to begin and when it is to end.  
 译：  
 超文本标记语言（HTML）是一组插入到文件中以在Internet上显示的标记符号或代码。标记告诉web浏览器如何显示网页的文字和图像。  
-每个单独的片段标记代码（介于“<”和“>”字符之间）都被称为元素，尽管许多人也将其称为标记。有些元素成对出现，表示某种显示效果何时开始，何时结束。
+每个单独的片段标记代码（介于“<”和“>”字符之间）都被称为元素，尽管许多人也将其称为标记。有些元素成对出现，表示某种显示效果何时开始，何时结束。   
+
+### Electron   
+Electron is a framework that enables you to create desktop applications with JavaScript, HTML, and CSS. These applications can then be packaged to run directly on macOS, Windows, or Linux, or distributed via the Mac App Store or the Microsoft Store.  
+Typically, you create a desktop application for an operating system (OS) using each operating system's specific native application frameworks. Electron makes it possible to write your application once using technologies that you already know.
+
+译： Electron 是一个能让你使用 JavaScript, HTML 和 CSS 来创建桌面应用程序的框架。 然后这些应用程序可以打包在macOS、Windows和Linux上直接运行，或者通过Mac App Store或微软商店分发。  
+通常，您使用每个操作系统特定的本地应用程序框架为操作系统 (OS)创建一个桌面应用程序。 Electron 可以使用你会的技术来编写应用程序。
