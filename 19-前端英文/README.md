@@ -26,7 +26,7 @@ http://nodejs.cn/
 - Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。  
 译：Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. 
 
-### Webpack  
+### Concepts of Webpack  
 - At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.  
 译：本质上，webpack 是一个现代 JavaScript 应用程序的静态模块打包工具。当 webpack 处理应用程序时，它会在内部构建一个 依赖图(dependency graph)，此依赖图会映射项目所需的每个模块，并生成一个或多个 bundle(包)。   
 摘自：  
@@ -43,8 +43,15 @@ Each individual piece markup code (which would fall between "<" and ">" characte
 译：超文本标记语言（HTML）是一组插入到文件中以在Internet上显示的标记符号或代码。标记告诉web浏览器如何显示网页的文字和图像。  
 每个单独的片段标记代码（介于“<”和“>”字符之间）都被称为元素，尽管许多人也将其称为标记。有些元素成对出现，表示某种显示效果何时开始，何时结束。   
 
+### WHAT IS CSS?  
+Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.   
+百度翻译：层叠样式表（CSS）是一种向Web文档添加样式（例如字体、颜色、间距）的简单机制。  
+摘自：  
+https://www.w3.org/Style/CSS/
+
 ### Electron   
 - Electron is a framework that enables you to create desktop applications with JavaScript, HTML, and CSS. These applications can then be packaged to run directly on macOS, Windows, or Linux, or distributed via the Mac App Store or the Microsoft Store.  
 Typically, you create a desktop application for an operating system (OS) using each operating system's specific native application frameworks. Electron makes it possible to write your application once using technologies that you already know.  
 译： Electron 是一个能让你使用 JavaScript, HTML 和 CSS 来创建桌面应用程序的框架。 然后这些应用程序可以打包在macOS、Windows和Linux上直接运行，或者通过Mac App Store或微软商店分发。  
-通常，您使用每个操作系统特定的本地应用程序框架为操作系统 (OS)创建一个桌面应用程序。 Electron 可以使用你会的技术来编写应用程序。
+通常，您使用每个操作系统特定的本地应用程序框架为操作系统 (OS)创建一个桌面应用程序。 Electron 可以使用你会的技术来编写应用程序。  
+
