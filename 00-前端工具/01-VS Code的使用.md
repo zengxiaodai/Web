@@ -1,6 +1,5 @@
 ## 前言
 
-> 文章标题：《第一次使用 VS Code 时你应该知道的一切配置》。本文的最新内容，更新于 2020-06-19。大家完全不用担心这篇文章会过时，因为随着 VS Code 的版本更新和插件更新，本文也会随之更新。
 
 VS Code 软件实在是太酷、太好用了，越来越多的新生代互联网青年正在使用它。
 
@@ -995,6 +994,5 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 - [Mac Vscode 快捷键](https://lsqy.tech/2020/03/14/20200314Mac-Vscode%E5%BF%AB%E6%8D%B7%E9%94%AE/)
 
 * [使用 VSCode 的一些技巧](https://mp.weixin.qq.com/s?src=11&timestamp=1591581536&ver=2387&signature=i4xLZlLe1Gkl7OiBIhPO*VSeNB5lzFgTY-dgNW9E9ZbtIAv4bnJ1RdAAZdhvDw*cg-DmMcUa-V8NSUdV-tthmXZCq3ht4edCweq6v0QxKjnh8IuAxyyh5qymdRui*8iE&new=1)
-
 
 

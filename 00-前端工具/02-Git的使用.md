@@ -1,12 +1,10 @@
 
 
-
-
 ## 常见操作
 
 ### 全局配置用户信息
 
-```git 
+```
 git config --global user.name "smyhvae"
 
 git config --global user.email "smyhvae@163.com"
@@ -133,13 +131,11 @@ git自动合并成功。不管是git自动合并成功，还是在人工解决�
 git config  user.name ""
 ```
 
-
 然后，当我们再输入`git pull`等命令行时，就会被要求重新输入*新的*账号密码。此时，密码就可以修改成功了。最后，我们还要输入如下命令，还原当前仓库的用户名：
 
 ```
 git config user.name "smyhvae"
 ```
-
 
 ### 修改已经push的某次commit的作者信息
 
@@ -155,7 +151,6 @@ git config user.name "smyhvae"
 - [修改 git repo 历史提交的 author](http://baurine.github.io/2015/08/22/git_update_author.html)
 
 
-
 ### 将 `branch1`的某个`commit1`合并到`branch2`当中
 
 切换到branch2中，然后执行如下命令：
@@ -163,7 +158,6 @@ git config user.name "smyhvae"
 ```
 git cherry-pick commit1
 ```
-
 
 ### 20190118-修改GitHub已提交的用户名和邮箱
 
@@ -174,7 +168,48 @@ git cherry-pick commit1
 - [Mac 运行sh文件，也就是传说中的shell脚本](https://blog.csdn.net/yusufolu9/article/details/53706269)
 
 
+在执行`./email.sh`后，如果出现`permission denied`的错误，可以先执行`chmod 777 email.sh`，修改文件的权限。
+
+
+### 20200520-将Git 项目迁移到另一个仓库
+
+我们假设旧仓库的项目名称叫`old-repository`，新仓库的项目名称叫`new-repository`。操作如下：
+
+
+（1）创建旧仓库的裸克隆：
+
+```bash
+git clone --bare https://github.com/exampleuser/old-repository.git
+```
+执行上述命令后，会在本地生成一个名叫 `old-repository.git`的文件夹。
+
+
+（2）迁移到新仓库：
+
+```bash
+cd old-repository.git
+
+git push --mirror https://github.com/exampleuser/new-repository.git
+```
+
+这样的话，项目就已经迁移到新仓库了。
+
+注意，我们**不需要**手动新建一个空的新仓库，当我们执行上述命令之后，新仓库就已经自动创建好了。
+
+参考链接：
+
+- [复制仓库](https://help.github.com/cn/github/creating-cloning-and-archiving-repositories/duplicating-a-repository)
+
+- [Git 本地仓库和裸仓库](https://moelove.info/2016/12/04/Git-%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%92%8C%E8%A3%B8%E4%BB%93%E5%BA%93/)
+
+
+
+
 ## git客户端推荐
+
+市面上的Git客户端我基本都用过了，我最推荐的一款Git客户端是：[Tower](https://www.git-tower.com) 或者 [Fork](https://git-fork.com)。
+
+- GitUp：<https://gitup.co/>
 
 20180623时，网上看了下Git客户端的推荐排名：
 
@@ -183,11 +218,10 @@ git cherry-pick commit1
 **SmartGit**：
 
 商业用途收费， 个人用户免费：
-s
+
 ![](http://img.smyhvae.com/20180623_1305.png)
 
 
-上面的Git客户端我基本都用过了，我最推荐的一款Git客户端是：[Tower](https://www.git-tower.com) 或者 [Fork](https://git-fork.com)。
 
 
 
@@ -203,7 +237,5 @@ s
 ### 2018-06
 
 - [聊下git pull --rebase](https://www.cnblogs.com/wangiqngpei557/p/6056624.html)
-
-
 
 
