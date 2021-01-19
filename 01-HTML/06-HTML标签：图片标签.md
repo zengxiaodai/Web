@@ -83,7 +83,7 @@ aaa/../bbb/1.jpg
 （1）以盘符开始的绝对路径。举例：
 
 ```html
-<img src="C:\Users\qianguyihao\Desktop\html\images\1.jpg">
+<img src="C:\Users\Desktop\html\images\1.jpg">
 ```
 
 （2）网络路径。举例：
@@ -108,7 +108,7 @@ aaa/../bbb/1.jpg
 下面的方法是行的，但是没有任何工程上的意义，这是因为服务器没有盘符，linux系统没有盘符：
 
 ```html
-<img src="file://C:\Users\qianguyihao\Pictures\明星\1.jpg" alt="" />
+<img src="file://C:\Users\Pictures\明星\1.jpg" alt="" />
 ```
 
 **总结一下**：

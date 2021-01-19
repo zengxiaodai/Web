@@ -11,11 +11,11 @@ PS：文件的后缀名不能决定文件格式，只能决定打开文件打开
 
 ### VS Code 的使用
 
-详情请移步至：[第一次使用VS Code时你应该知道的一切配置](/xv700/Web/blob/master/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.md)
+详情请移步至：[第一次使用VS Code时你应该知道的一切配置](/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.md)
 
 ### Sublime Text 的使用
 
-详情请移步至：[Sublime Text使用技巧](https://github.com/qianguyihao/Mac/blob/master/05-%E5%85%A8%E5%B9%B3%E5%8F%B0%E8%BD%AF%E4%BB%B6/Sublime%20Text%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md)
+详情请移步至：[Sublime Text使用技巧](/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/04-Sublime%20Text%E5%9C%A8%E5%89%8D%E7%AB%AF%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8.md)
 
 ## HTML的概述
 
@@ -509,12 +509,3 @@ HTML中所有的**文字之间**，如果有空格、换行、tab都将被折叠
 标签不封闭的举例如下：
 
 ![](http://img.smyhvae.com/20170629_2245.jpg)
-
-
-## 我的公众号
-
-想学习**代码之外的技能**？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](http://img.smyhvae.com/20200101.png)
