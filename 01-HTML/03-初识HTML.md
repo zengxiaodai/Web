@@ -11,7 +11,7 @@ PS：文件的后缀名不能决定文件格式，只能决定打开文件打开
 
 ### VS Code 的使用
 
-详情请移步至：[第一次使用VS Code时你应该知道的一切配置](https://github.com/qianguyihao/Web/blob/master/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.md)
+详情请移步至：[第一次使用VS Code时你应该知道的一切配置](/xv700/Web/blob/master/00-%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/01-VS%20Code%E7%9A%84%E4%BD%BF%E7%94%A8.md)
 
 ### Sublime Text 的使用
 
