@@ -1,4 +1,5 @@
 
+
 ## 本文重要内容
 
  - CSS的单位
@@ -11,9 +12,9 @@
 html中的单位只有一种，那就是像素px，所以单位是可以省略的，但是在CSS中不一样。
 <font color="#0000FF">**CSS中的单位是必须要写的**，因为它没有默认单位。</font>
 
- - **绝对单位：**
+### 绝对单位
 
- 1 `in`=2.54`cm`=25.4`mm`=72`pt`=6`pc`。
+1 `in`=2.54`cm`=25.4`mm`=72`pt`=6`pc`。
 
 各种单位的含义：
 
@@ -23,7 +24,8 @@ html中的单位只有一种，那就是像素px，所以单位是可以省略�
 - `pt`：点Points，或者叫英镑 (1点 = 1/72英寸)
 - `pc`：皮卡Picas (1 皮卡 = 12 点)
 
- - **相对单位：**
+### 相对单位
+
 `px`：像素
 `em`：印刷单位相当于12个点
 `%`：百分比，相对周围的文字的大小
@@ -34,7 +36,24 @@ html中的单位只有一种，那就是像素px，所以单位是可以省略�
 
 ![](http://img.smyhvae.com/2015-10-03-css-17.png)
 
-## 字体属性
+## font 字体属性
+
+CSS中，有很多**非布局样式**（与布局无关），包括：字体、行高、颜色、大小、背景、边框、滚动、换行、装饰性属性（粗体、斜体、下划线）等。
+
+这一段，我们先来讲一下字体属性。
+
+css样式中，常见的字体属性有以下几种：
+
+```css
+p{
+	font-size: 50px; 		/*字体大小*/
+	line-height: 30px;      /*行高*/
+	font-family: 幼圆,黑体; 	/*字体类型：如果没有幼圆就显示黑体，没有黑体就显示默认*/
+	font-style: italic ;		/*italic表示斜体，normal表示不倾斜*/
+	font-weight: bold;	/*粗体*/
+	font-variant: small-caps;  /*小写变大写*/
+}
+```
 
 ### 行高
 
@@ -52,7 +71,6 @@ CSS中，所有的行，都有行高。盒子模型的padding，绝对不是直�
 
 为了严格保证字在行里面居中，我们的工程师有一个约定： **行高、字号，一般都是偶数**。这样可以保证，它们的差一定偶数，就能够被2整除。
 
-
 ### 如何让单行文本垂直居中
 
 小技巧：如果一段文本只有一行，如果此时设置**行高 = 盒子高**，就可以保证单行文本垂直居中。这个很好理解。
@@ -61,24 +79,19 @@ CSS中，所有的行，都有行高。盒子模型的padding，绝对不是直�
 
 ![](http://img.smyhvae.com/20170808_2240.png)
 
-### font字体属性
+### `vertical-align: middle;` 属性
 
-css样式中，字体属性有以下几种：
+`vertical-align`属性可用于指定**行内元素**（inline）、**行内块元素**（inline-block）、**表格的单元格**（table-cell）的垂直对齐方式。主要是用于图片、表格、文本的对齐。
 
-```html
-p{
-	font-size:50px; 		/*字体大小*/
-	line-height: 30px;      /*行高*/
-	font-family:幼圆,黑体; 	/*字体类型：如果没有幼圆就显示黑体，没有黑体就显示默认*/
-	font-style:italic ;		/*italic表示斜体，normal表示不倾斜*/
-	font-weight:bold;	/*粗体：属性值写成bolder也可以*/
-	font-variant:small-caps;  /*小写变大写*/
-}
+代码举例：
+
+```css
+vertical-align: middle; /*指定行级元素的垂直对齐方式。*/
 ```
 
-上面这些属性中，字号、行高、字体这三个属性是最常见的。我们继续看。
+关于这一点，连 MDN 上都没我讲得详细。MDN上的原话是 “vertical-align 用来指定行内元素（inline）或表格单元格（table-cell）元素的垂直对齐方式。” MDN上的这种描述是不完整的，漏掉了行内块元素（inline-block）。
 
-**1、字号、行高、字体三大属性：**
+### 字号、行高、字体三大属性
 
 （1）字号：
 
@@ -102,7 +115,6 @@ p{
 
 格式：
 
-
 ```
 	font: 加粗 字号/行高/ 字体
 
@@ -111,13 +123,12 @@ p{
 举例：
 
 ```
-	font: 400 14px/24px “宋体”;
+	font: 400 14px/24px "宋体";
 ```
 
 PS：400是nomal，700是bold。
 
 上面这几个属性可以连写，但是有一个要求，font属性连写至少要有**字号和字体**，否则连写是不生效的（相当于没有这一行代码）。
-
 
 
 **2、字体属性的说明：**
@@ -128,11 +139,11 @@ PS：400是nomal，700是bold。
 	font-family: "华文彩云";
 ```
 
-上方代码中，如果用户电脑里面没有这个字体，那么就会变成宋体。
+上方代码中，如果用户的 Windows 电脑里面没有这个字体，那么就会变成宋体。
 
-页面中，中文我们只使用：微软雅黑、宋体、黑体。英文使用：Arial、Times New Roman。页面中如果需要其他的字体，就需要切图。
+页面中，中文我们一般使用：微软雅黑、宋体、黑体。英文使用：Arial、Times New Roman。页面中如果需要其他的字体，就需要单独安装字体，或者切图。
 
-（2）为了防止用户电脑里，没有微软雅黑这个字体。就要用英语的逗号，隔开备选字体。如下：（可以备选多个）
+（2）为了防止用户电脑里，没有微软雅黑这个字体。就要用英语的逗号，提供备选字体。如下：（可以备选多个）
 
 ```
 	font-family: "微软雅黑","宋体";
@@ -185,27 +196,40 @@ PS：400是nomal，700是bold。
 
 反过来， `font:16px/48px “宋体”;`等价于`font:16px/300% “宋体”`。
 
+### 字体加粗属性
+
+```css
+.div {
+	font-weight: normal; /*正常*/
+	font-weight: bold;  /*加粗*/
+	font-weight: 100;
+	font-weight: 200;
+	font-weight: 900;
+}
+
+```
+
+在设置字体是否加粗时，属性值既可以填写`normal`、`bold`这样的加粗字体，也可以直接填写 100至900 这样的数字。`normal`的值相当于400，`bold`的值相当于700。
 
 ## 文本属性
 
 CSS样式中，常见的文本属性有以下几种：
 
- - `letter-spacing: 0.5cm ;`  单个字母之间的间距
- - `word-spacing: 1cm;`   单词之间的间距
- - `text-decoration: none;` 字体修饰：none去掉下划线、**underline下划线**、line-through中划线、overline上划线、
- - `text-transform: lowercase;`  单词字体大小写。uppercase大写、lowercase小写
- - `color:red;` 字体颜色
- - `text-align: center;` 在当前容器中的对齐方式。属性值可以是：left、right、center（<font color="#0000FF">**在当前容器的中间**</font>）、justify
- - `text-transform: lowercase;` 单词的字体大小写。属性值可以是：`uppercase`（单词大写）、`lowercase`（单词小写）、`capitalize`（每个单词的首字母大写）
+- `letter-spacing: 0.5cm ;`  单个字母之间的间距
+- `word-spacing: 1cm;`   单词之间的间距
+- `text-decoration: none;` 字体修饰：none 去掉下划线、**underline 下划线**、line-through 中划线、overline 上划线
+- `text-transform: lowercase;`  单词字体大小写。uppercase大写、lowercase小写
+- `color:red;` 字体颜色
+- `text-align: center;` 在当前容器中的对齐方式。属性值可以是：left、right、center（<font color="#0000FF">**在当前容器的中间**</font>）、justify
+- `text-transform: lowercase;` 单词的字体大小写。属性值可以是：`uppercase`（单词大写）、`lowercase`（单词小写）、`capitalize`（每个单词的首字母大写）
 
 这里来一张表格的图片吧，一览无遗：
 
 ![](http://img.smyhvae.com/2015-10-03-css-18.png)
 
-
 ## 列表属性
 
-```html
+```css
 ul li{
 	list-style-image:url(images/2.gif) ;  /*列表项前设置为图片*/
 	margin-left:80px;  /*公有属性*/
@@ -226,17 +250,14 @@ ul li{
 
 ![](http://img.smyhvae.com/2015-10-03-css-26.png)
 
-
-
 ## overflow属性：超出范围的内容要怎么处理
 
 `overflow`属性的属性值可以是：
 
- - `auto`：浏览器自己解决。在必需时裁切对象多余的内容或显示滚动条。一般采用这个属性值。
- - `visible`：默认值。多余的内容不剪切也不添加滚动条，会全部显示出来。
- - `hidden`：不显示超过对象尺寸的内容。
-对象将以包含对象的 window 或 frame 的尺寸进行裁切，并且 clip 属性设置将失效。
- - `scroll`：总是显示滚动条。
+- `visible`：默认值。多余的内容不剪切也不添加滚动条，会全部显示出来。
+- `hidden`：不显示超过对象尺寸的内容。
+- `auto`：如果内容不超出，则不显示滚动条；如果内容超出，则显示滚动条。
+ - `scroll`：Windows 平台下，无论内容是否超出，总是显示滚动条。Mac 平台下，和 `auto` 属性相同。
 
 针对上面的不同的属性值，我们来看一下效果：
 举例：
@@ -263,14 +284,14 @@ ul li{
 		}
 
 		#div1{
-			overflow:auto;/*超出的部分让浏览器自行解决*/
+			overflow: auto;/*超出的部分让浏览器自行解决*/
 		}
 		#div2{
-			overflow:visible;/*超出的部分会显示出来*/
+			overflow: visible;/*超出的部分会显示出来*/
 		}
 
 		#div3{
-			overflow:hidden;/*超出的部分将剪切掉*/
+			overflow: hidden;/*超出的部分将剪切掉*/
 		}
 
 	</style>
@@ -291,12 +312,7 @@ ul li{
 
 ![](http://img.smyhvae.com/2015-10-03-css-31.png)
 
-
-
-
-
-
-## 鼠标的属性cursor
+## 鼠标的属性 cursor
 
 鼠标的属性`cursor`有以下几个属性值：
 
@@ -368,7 +384,6 @@ p:hover{
 
 爆料一下，表示博主有两年多的平面设计经验，我做设计的时间其实比写代码的时间要长，嘿嘿···
 
-
 ## 导航栏的制作（本段内容请忽略）
 
 现在，我们利用float浮动属性来把无序列表做成一个简单的导航栏吧，效果如下：
@@ -428,3 +443,5 @@ p:hover{
 实现效果如下：
 
 ![](http://img.smyhvae.com/2015-10-03-css-35.png)
+
+国庆这四天，连续写了四天的博客，白天和黑夜，从未停歇，只交替没交换，为的就是这每日一发。以后会不断更新的。
