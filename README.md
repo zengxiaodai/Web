@@ -24,18 +24,17 @@
 ### 02-CSS基础
 
 > 这是一篇关于CSS文档，能够你从0入门掌握CSS  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/02-CSS
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/02-CSS%E5%9F%BA%E7%A1%80
 
 ### 03-CSS进阶
 
-> JavaScript诞生于1995年。布兰登 • 艾奇（Brendan Eich，1961年～），1995年在网景公司，发明的JavaScript。  
-> JavaScript是由网景公司发明，起初命名为LiveScript，后来由于SUN公司的介入更名为了JavaScript。  
+> CSS的布局和一些平时的经验积累  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/03-JavaScript%E5%9F%BA%E7%A1%80
 
 ### 04-JavaScript基础
 
 > 一些高级JavaScript操作  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/04-JavaScript%E8%BF%9B%E9%98%B6
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/04-JavaScript%E5%9F%BA%E7%A1%80
 
 
 ### 05-JavaScript之ES6语法
