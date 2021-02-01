@@ -29,7 +29,7 @@
 ### 03-CSS进阶
 
 > CSS的布局和一些平时的经验积累  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/03-JavaScript%E5%9F%BA%E7%A1%80
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/03-CSS%E8%BF%9B%E9%98%B6
 
 ### 04-JavaScript基础
 
@@ -40,14 +40,13 @@ JavaScript是由网景公司（Netscape）发明，最初命名为LiveScript；1
 
 ### 05-JavaScript之ES6语法
 
-> 仿照JD首页进行切图   
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9ACSS%E5%92%8CDOM%E7%BB%83%E4%B9%A0
+> 简单来说，ECMAScript 是 JS 的语言标准；但严格来说，ECMAScript 还包括其他脚本语言的语言标准。   
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/05-JavaScript%E4%B9%8BES6%E8%AF%AD%E6%B3%95
 
 ### 06-JavaScript进阶
 
-> 一些JavaScript特效   
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9AJavaScript%E7%89%B9%E6%95%88
-
+> 一些JavaScript高级用法和高级概念
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/06-JavaScript%E8%BF%9B%E9%98%B6
 
 ### 07-HTML5和CSS3 
 
