@@ -21,37 +21,33 @@
 > 什么是web，标准是什么，HTML是什么包含什么？   
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/01-HTML  
 
-### 02-CSS
+### 02-CSS基础
 
 > 这是一篇关于CSS文档，能够你从0入门掌握CSS  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/02-CSS
 
-### 03-JavaScript基础
+### 03-CSS进阶
 
 > JavaScript诞生于1995年。布兰登 • 艾奇（Brendan Eich，1961年～），1995年在网景公司，发明的JavaScript。  
 > JavaScript是由网景公司发明，起初命名为LiveScript，后来由于SUN公司的介入更名为了JavaScript。  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/03-JavaScript%E5%9F%BA%E7%A1%80
 
-### 04-JavaScript进阶
+### 04-JavaScript基础
 
 > 一些高级JavaScript操作  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/04-JavaScript%E8%BF%9B%E9%98%B6
 
 
-### 05-前端基本功：CSS和DOM练习
+### 05-JavaScript之ES6语法
 
 > 仿照JD首页进行切图   
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9ACSS%E5%92%8CDOM%E7%BB%83%E4%B9%A0
 
-### 05-前端基本功：JavaScript特效
+### 06-JavaScript进阶
 
 > 一些JavaScript特效   
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/05-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9AJavaScript%E7%89%B9%E6%95%88
 
-### 06-jQuery
-
-> jQuery 是 js 的一个库，封装了我们开发过程中常用的一些功能，方便我们调用，提高开发效率。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/06-jQuery
 
 ### 07-HTML5和CSS3 
 
