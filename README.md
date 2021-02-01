@@ -33,9 +33,10 @@
 
 ### 04-JavaScript基础
 
-> 一些高级JavaScript操作  
+> JavaScript诞生于1995年。布兰登 • 艾奇（Brendan Eich，1961年～），1995年在网景公司，开发除了JavaScript语言。  
+JavaScript是由网景公司（Netscape）发明，最初命名为LiveScript；1995年12月与SUN公司合作，因市场宣传需要，改名为 JavaScript。  
+后来 Sun 公司 被Oracle收购，JavaScript版权归Oracle所有。  
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/04-JavaScript%E5%9F%BA%E7%A1%80
-
 
 ### 05-JavaScript之ES6语法
 
