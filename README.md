@@ -43,25 +43,25 @@ JavaScript是由网景公司（Netscape）发明，最初命名为LiveScript；1
 > 简单来说，ECMAScript 是 JS 的语言标准；但严格来说，ECMAScript 还包括其他脚本语言的语言标准。   
 > 点击阅读：https://gitee.com/xv700/Web/tree/master/05-JavaScript%E4%B9%8BES6%E8%AF%AD%E6%B3%95
 
-### 06-JavaScript进阶
+### 06-JavaScript异步编程：Ajax和Promise
 
-> 一些JavaScript高级用法和高级概念
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/06-JavaScript%E8%BF%9B%E9%98%B6
+> C/S架构和B/S架构
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/06-JavaScript%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%EF%BC%9AAjax%E5%92%8CPromise
 
-### 07-HTML5和CSS3 
+### 07-JavaScript进阶
 
-> HTML5并不仅仅只是做为HTML标记语言的一个最新版本，更重要的是它**制定了Web应用开发的一系列标准**，成为第一个将Web做为应用开发平台的HTML语言。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/07-HTML5%E5%92%8CCSS3
+> var、let、const 的区别
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/07-JavaScript%E8%BF%9B%E9%98%B6  
 
-### 08-移动web开发
+### 08-前端基本功：CSS和DOM练习
 
-> Bootstrap 是非常流行的前端框架。特点是：灵活简洁、代码优雅、美观大方。它是由Twitter的两名工程师 Mark Otto 和 Jacob Thornton 在2011年开发的。  
-> 点击阅读：https://gitee.com/xv700/Web/tree/master/08-%E7%A7%BB%E5%8A%A8web%E5%BC%80%E5%8F%91
+> 京东是典型的电商类网站，学习这个网站的制作比较有价值。我们准备用WebStorm进行开发。  
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/08-%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E5%8A%9F%EF%BC%9ACSS%E5%92%8CDOM%E7%BB%83%E4%B9%A0
 
-### 09-Ajax
+### 09-移动Web开发
 
 > 在浏览器中，我们可以在不刷新页面的情况下，通过ajax的方式去获取一些新的内容。  
-> 点击阅读：https://gitee.com/xv700/Web/blob/master/09-Ajax/02-Ajax%E5%85%A5%E9%97%A8%E5%92%8C%E5%8F%91%E9%80%81http%E8%AF%B7%E6%B1%82.md
+> 点击阅读：https://gitee.com/xv700/Web/tree/master/09-%E7%A7%BB%E5%8A%A8Web%E5%BC%80%E5%8F%91
 
 ### 10-Node.js和模块化
 
