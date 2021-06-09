@@ -420,7 +420,7 @@ function getImg() {
             // 图片的加载，是异步任务
             resolve(img);
         };
-        img.src = 'https://img.smyhvae.com/20200102.png';
+        img.src = 'http://nav.qianlimu.net/resources/jsrun.png';
     });
 }
 
